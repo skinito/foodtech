@@ -1,0 +1,30 @@
+.wrap2{
+	background-color: #000;
+	padding: 2% 2% 0 2%;
+}
+
+.slider{
+	padding: 2% 2% 2% 2%;
+	width: 500px;
+	margin: auto;
+}
+
+img{
+	width: 100%;
+}
+
+
+@media screen and (max-width: 800px){
+
+	.wrap2{
+		padding: 2% 2% 2% 2%;
+	}
+
+
+	.slider{
+		margin-bottom: 5%;
+		padding-bottom: 5%;
+		width: 200px;
+		margin: auto;
+	}
+}

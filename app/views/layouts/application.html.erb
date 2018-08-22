@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>StartupFoodtech</title>
+    <meta name="description" content="Furious Foodtech à Montpellier centre ville, restaurant rapide, fast food centre montpellier, manger un burger à montpellier">
+    <meta name="keywords" content="burger,Montpellier,salade,centre ville">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+
+  </head>
+
+  <body>
+    <%= render partial: 'layouts/header' %>
+    <div class="containers">
+      <div class="wrapper">
+          <%= yield %>
+      </div>
+    </div>
+    <%= render partial: 'layouts/footer' %>
+  </body>
+</html>

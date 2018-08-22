@@ -1,0 +1,26 @@
+
+
+#hero{
+  background: linear-gradient(135deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0) 91%),url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size:cover;
+  position:relative;
+}
+
+h1{
+  color: #fff;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+  -webkit-transform: translate(0,-50%); /* Safari */
+  transform: translate(0,-50%);
+
+}
